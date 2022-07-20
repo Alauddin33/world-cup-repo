@@ -41,7 +41,6 @@ body {
 .bnr-img {
     width: 60%;
     padding-right: 20px;
-
 }
 
 .bnr-img img {
@@ -133,36 +132,19 @@ main {
 .blog {
     border: 1px solid gainsboro;
     border-radius: 10px;
-    height: 350px;
-
-}
-
-.image {
-    width: 100%;
-}
-
-.detail {
-    padding-left: 10px;
-}
-
-.detail h3 {
-    padding: 20px 0px;
-}
-
-button {
-    padding: 5px 7px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.stat {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.icon {
+    height: 200px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.blog div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .view-button {
     margin-top: 50px;
